@@ -1,0 +1,42 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+h1,p{
+    font-family: 'Playfair Display', serif;
+    opacity: 1;
+    
+}
+b{
+    animation: anim 10s 10;
+    font-size: 20px
+}
+.container-img{
+    text-align: center;
+    padding: 20px;
+    background-image: url(shape-2622304_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-text{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.9;
+    
+}
+img{
+    text-align: center;
+}
+@keyframes anim {
+  0% {
+    color: red;
+  }
+  50% {
+    color: green;
+  }
+  100% {
+    color: cornflowerblue;
+  }
+}
